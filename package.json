@@ -17,14 +17,13 @@
     "test": "react-scripts test --watchAll=false --coverage",
     "eject": "react-scripts eject",
     "postinstall": "husky install",
-    "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
-    "lint:fix": "eslint --fix --ext .js,.jsx,.ts,.tsx ."
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx ."
   },
   "jest": {
     "coverageThreshold": {
       "global": {
         "statements": 85,
-        "branches": 50,
+        "branches": 85,
         "functions": 85,
         "lines": 85
       }
